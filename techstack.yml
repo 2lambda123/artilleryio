@@ -1,0 +1,1349 @@
+repo_name: 2lambda123/artilleryio
+report_id: c48df99c1d8f30ad875cd0f4372fec35
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:14:03+00:00'
+requested_by: bernardobridge
+provider: github
+branch: main
+detected_tools_count: 111
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/artilleryio
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/packages/artillery-plugin-publish-metrics/package.json
+  detection_source: packages/artillery-plugin-publish-metrics/package.json
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/packages/artillery-plugin-publish-metrics/package.json
+  detection_source: packages/artillery-plugin-publish-metrics/package.json
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/graphql-api-server/prisma/migrations/20211005051218_init/migration.sql
+  detection_source: examples/graphql-api-server/prisma/migrations/20211005051218_init/migration.sql
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/2lambda123/artilleryio
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/packages/artillery-plugin-publish-metrics/package.json
+  detection_source: packages/artillery-plugin-publish-metrics/package.json
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/file-uploads/package-lock.json
+  detection_source: examples/file-uploads/package.json
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/k8s-testing-with-kubectl-artillery/Dockerfile
+  detection_source: examples/k8s-testing-with-kubectl-artillery/Dockerfile
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/packages/core/package.json
+  detection_source: packages/core/package.json
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/graphql-api-server/package.json
+  detection_source: examples/graphql-api-server/package.json
+- name: Prisma
+  description: Modern Database Access for TypeScript &amp; Node.js
+  website_url: https://www.prisma.io/
+  version: 3.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/8680/Logo_Symbol_White.jpg
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/graphql-api-server/package-lock.json
+  detection_source: examples/graphql-api-server/package.json
+- name: SQLite
+  description: A software library that implements a self-contained, serverless, zero-configuration,
+    transactional SQL database engine
+  website_url: http://www.sqlite.org/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/functional-testing-with-expect-plugin/package.json
+  detection_source: examples/functional-testing-with-expect-plugin/package.json
+- name: Socket.IO
+  description: Realtime application framework (Node.JS server)
+  website_url: http://socket.io/
+  version: 3.1.2
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/http-socketio-server/package-lock.json
+  detection_source: examples/http-socketio-server/package.json
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/websockets/package.json
+  detection_source: examples/websockets/package.json
+- name: Azure Pipelines
+  description: Continuously build, test, and deploy to any platform and cloud
+  website_url: https://azure.microsoft.com/ko-kr/services/devops/pipelines/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/cicd/azure-devops/azure-pipelines.yml
+  detection_source: examples/cicd/azure-devops/azure-pipelines.yml
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.3.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: packages/skytrace/package.json
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/artilleryio
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/packages/artillery/package.json
+  detection_source: packages/artillery/package.json
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/.eslintrc
+  detection_source: ".eslintrc"
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/artilleryio
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/.github/workflows/codeql-analysis.yml
+  detection_source: ".github/workflows/codeql-analysis.yml"
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 9.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: packages/skytrace/package.json
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/packages/artillery-plugin-publish-metrics/package.json
+  detection_source: packages/artillery-plugin-publish-metrics/package.json
+- name: OpenTracing
+  description: Consistent, expressive, vendor-neutral APIs for distributed tracing
+    and context propagation.
+  website_url: http://opentracing.io/
+  version: 0.14.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/6941/ktuguoGc_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery-plugin-publish-metrics/package.json
+- name: Playwright
+  description: Node library to automate Chromium, Firefox and WebKit with a single
+    API (By Microsoft)
+  website_url: https://github.com/microsoft/playwright
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/11955/default_48baa40615243f437bc3b182e62ddfe0290fca4b.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/packages/artillery-engine-playwright/package.json
+  detection_source: packages/artillery-engine-playwright/package.json
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: package.json
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/packages/artillery-plugin-publish-metrics/package.json
+  detection_source: packages/artillery-plugin-publish-metrics/package.json
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/packages/artillery-plugin-publish-metrics/package.json
+  detection_source: packages/artillery-plugin-publish-metrics/package.json
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/packages/artillery-plugin-publish-metrics/package.json
+  detection_source: packages/artillery-plugin-publish-metrics/package.json
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 4.5.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/packages/types/package.json
+  detection_source: packages/types/package.json
+- name: Apollo
+  description: GraphQL server for Express, Connect, Hapi, Koa and more
+  website_url: https://www.apollographql.com/
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/5508/CyUH653y.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/graphql-api-server/package-lock.json
+  detection_source: examples/graphql-api-server/package.json
+- name: Mixpanel
+  description: Powerful, self-serve product analytics to help you convert, engage,
+    and retain more users
+  website_url: https://mixpanel.com
+  open_source: false
+  hosted_saas: true
+  category: Analytics
+  sub_category: General Analytics
+  image_url: https://img.stackshare.io/service/60/default_a3830bd6c50dcc059aaf3aaf287131b64e0957e2.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/packages/artillery-plugin-publish-metrics/package.json
+  detection_source: packages/artillery-plugin-publish-metrics/package.json
+- name: Ora
+  description: Agile task management and visual team collaboration, Ora is your team’s
+    command center with kanban, chat and timers!
+  website_url: https://ora.pm/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Project Management
+  image_url: https://img.stackshare.io/service/6925/preview.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/packages/artillery/package.json
+  detection_source: packages/artillery/package.json
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery-plugin-expect/package.json
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/artilleryio
+  detection_source: Repo Metadata
+- name: Tape
+  description: 'i''m the package manager for javascript. problems? try @npm_support
+    and #npm on freenode.'
+  website_url: https://www.npmjs.com/package/tape
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3722/lejvzrnlpb308aftn31u_normal.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/artillery-engine-example/package.json
+  detection_source: examples/artillery-engine-example/package.json
+- name: artillery
+  description: Performance and resilience start with load-testing - https://t.co/OvcUCZxBTL
+  website_url: artillery.io
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5723/lmrSw1Oc_normal.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package.json
+  detection_source: examples/browser-load-testing-playwright/package.json
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/packages/artillery-plugin-ensure/package.json
+  detection_source: packages/artillery-plugin-ensure/package.json
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package.json
+  detection_source: package.json
+- name: zx
+  description: A tool for writing better scripts (By Google)
+  website_url: https://github.com/google/zx
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Bash Scripts
+  image_url: https://img.stackshare.io/service/25684/default_09d743c2ce3cd5b32e4cae363d05941d9d137dd9.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/packages/artillery-plugin-ensure/package.json
+  detection_source: packages/artillery-plugin-ensure/package.json
+- name: "@commitlint/cli"
+  description: Lint your commit messages
+  package_url: https://www.npmjs.com/@commitlint/cli
+  version: 9.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16059/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: package.json
+- name: "@commitlint/config-conventional"
+  description: Shareable commitlint config enforcing conventional commits
+  package_url: https://www.npmjs.com/@commitlint/config-conventional
+  version: 7.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16092/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: package.json
+- name: "@hapi/hapi"
+  description: HTTP Server framework
+  package_url: https://www.npmjs.com/@hapi/hapi
+  version: 20.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18181/default_9472f2a1c56256064874685c48697eac8a870621.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: "@oclif/command"
+  description: Oclif base command
+  package_url: https://www.npmjs.com/@oclif/command
+  version: 1.8.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16803/default_9a5182350af29cb82b3344853e865051f508ac6c.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/skytrace/package.json
+- name: "@oclif/plugin-help"
+  description: Standard help for oclif
+  package_url: https://www.npmjs.com/@oclif/plugin-help
+  version: 3.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16632/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: "@oclif/test"
+  description: Test helpers for oclif components
+  package_url: https://www.npmjs.com/@oclif/test
+  version: 2.3.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17312/default_3ec53c4dad64de27b72cc81401e898b5aea82f2c.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: packages/skytrace/package.json
+- name: "@prisma/client"
+  description: Prisma Client is an auto-generated, type-safe and modern JavaScript/TypeScript
+    ORM for Node.js that's tailored to your data
+  package_url: https://www.npmjs.com/@prisma/client
+  version: 3.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/graphql-api-server/package-lock.json
+  detection_source: examples/graphql-api-server/package.json
+- name: "@types/chai"
+  description: TypeScript definitions for chai
+  package_url: https://www.npmjs.com/@types/chai
+  version: 4.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15922/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: packages/skytrace/package.json
+- name: "@types/inquirer"
+  description: TypeScript definitions for inquirer
+  package_url: https://www.npmjs.com/@types/inquirer
+  version: 8.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16530/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: packages/skytrace/package.json
+- name: "@types/js-yaml"
+  description: TypeScript definitions for js-yaml
+  package_url: https://www.npmjs.com/@types/js-yaml
+  version: 4.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16757/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: packages/skytrace/package.json
+- name: "@types/mocha"
+  description: TypeScript definitions for mocha
+  package_url: https://www.npmjs.com/@types/mocha
+  version: 9.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: packages/skytrace/package.json
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.11.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/skytrace/package.json
+- name: ajv
+  description: Another JSON Schema Validator
+  package_url: https://www.npmjs.com/ajv
+  version: 6.12.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16186/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/functional-testing-with-expect-plugin/package-lock.json
+  detection_source: packages/types/package.json
+- name: apollo-server
+  description: Production ready GraphQL Server
+  package_url: https://www.npmjs.com/apollo-server
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18230/default_2c3976088fc45d7746e80d08ccf312c0cbcccba7.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/graphql-api-server/package-lock.json
+  detection_source: examples/graphql-api-server/package.json
+  vulnerabilities:
+  - name: Cross-site Scripting Vulnerability in GraphQL Playground (distributed by
+      Apollo Server)
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-qm7x-rc44-rrqw
+    detected_date: Jan 18
+    severity: high
+    first_patched: 3.4.1
+- name: archiver
+  description: A streaming interface for archive generation
+  package_url: https://www.npmjs.com/archiver
+  version: 5.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16407/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: async
+  description: Higher-order functions and common patterns for asynchronous code
+  package_url: https://www.npmjs.com/async
+  version: 3.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/artillery-engine-example/package-lock.json
+  detection_source: examples/artillery-engine-example/package.json
+- name: aws-sdk
+  description: AWS SDK for JavaScript
+  package_url: https://www.npmjs.com/aws-sdk
+  version: 2.1243.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery-plugin-ensure/package.json
+- name: cheerio
+  description: Fast, flexible, and lean implementation of core jQuery
+  package_url: https://www.npmjs.com/cheerio
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/commons/package.json
+- name: cookie-parser
+  description: Parse HTTP request cookies
+  package_url: https://www.npmjs.com/cookie-parser
+  version: 1.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/http-socketio-server/package-lock.json
+  detection_source: examples/http-socketio-server/package.json
+- name: cross-spawn
+  description: Cross platform child_process#spawn and child_process#spawnSync
+  package_url: https://www.npmjs.com/cross-spawn
+  version: 6.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16069/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: csv-parse
+  description: CSV parsing implementing the Node.js `stream.Transform` API
+  package_url: https://www.npmjs.com/csv-parse
+  version: 4.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17054/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: examples/table-driven-functional-tests/package.json
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 4.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/artillery-engine-example/package-lock.json
+  detection_source: examples/artillery-engine-example/package.json
+- name: del-cli
+  description: Delete files and directories - Cross-platform
+  package_url: https://www.npmjs.com/del-cli
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16349/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/file-uploads/package-lock.json
+  detection_source: examples/file-uploads/package.json
+- name: eslint-config-airbnb-base
+  description: Airbnb's base JS ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb-base
+  version: 14.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/http-socketio-server/package-lock.json
+  detection_source: examples/http-socketio-server/package.json
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.23.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/http-socketio-server/package-lock.json
+  detection_source: examples/http-socketio-server/package.json
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: espree
+  description: An Esprima-compatible JavaScript parser built on Acorn
+  package_url: https://www.npmjs.com/espree
+  version: 7.3.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18033/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/http-socketio-server/package-lock.json
+  detection_source: packages/commons/package.json
+- name: esprima
+  description: ECMAScript parsing infrastructure for multipurpose analysis
+  package_url: https://www.npmjs.com/esprima
+  version: 4.0.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16362/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/core/package.json
+- name: eventemitter3
+  description: EventEmitter3 focuses on performance while maintaining a Node.js AND
+    browser compatible interface
+  package_url: https://www.npmjs.com/eventemitter3
+  version: 4.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16574/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: execa
+  description: Process execution for humans
+  package_url: https://www.npmjs.com/execa
+  version: 0.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/file-uploads/package-lock.json
+  detection_source: examples/file-uploads/package.json
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: faker
+  description: Generate massive amounts of fake contextual data
+  package_url: https://www.npmjs.com/faker
+  version: 5.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16327/default_1baba0e6ece19a38adfb211f686c83c781ff703a.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/starter-kit/package-lock.json
+  detection_source: examples/starter-kit/package.json
+- name: fast-deep-equal
+  description: Fast deep equal
+  package_url: https://www.npmjs.com/fast-deep-equal
+  version: 3.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17360/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/core/package.json
+- name: form-data
+  description: A library to create readable "multipart/form-data" streams
+  package_url: https://www.npmjs.com/form-data
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16415/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/core/package.json
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 9.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: got
+  description: Human-friendly and powerful HTTP request library for Node.js
+  package_url: https://www.npmjs.com/got
+  version: 11.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16258/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/core/package.json
+- name: https-proxy-agent
+  description: An HTTP
+  package_url: https://www.npmjs.com/https-proxy-agent
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17334/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/core/package.json
+- name: ip
+  description: "[![]"
+  package_url: https://www.npmjs.com/ip
+  version: 1.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16483/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery/package.json
+  vulnerabilities:
+  - name: NPM IP package incorrectly identifies some private IP addresses as public
+    cve_id: CVE-2023-42282
+    cve_url: https://github.com/advisories/GHSA-78xj-cgh5-2h22
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 1.1.9
+- name: joi
+  description: Object schema validation
+  package_url: https://www.npmjs.com/joi
+  version: 17.6.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16173/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 3.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 9.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/socket-io/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 13.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: package.json
+- name: mime-types
+  description: The ultimate javascript content-type utility
+  package_url: https://www.npmjs.com/mime-types
+  version: 2.1.35
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16448/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/skytrace/package.json
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: ms
+  description: Tiny millisecond conversion utility
+  package_url: https://www.npmjs.com/ms
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16565/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/artillery-engine-example/package-lock.json
+  detection_source: packages/commons/package.json
+- name: multer
+  description: Middleware for handling `multipart/form-data`
+  package_url: https://www.npmjs.com/multer
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16421/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/file-uploads/package-lock.json
+  detection_source: examples/file-uploads/package.json
+- name: nanoid
+  description: A tiny
+  package_url: https://www.npmjs.com/nanoid
+  version: 3.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17208/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/socket-io/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 13.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: packages/core/package.json
+- name: portfinder
+  description: A simple tool to find an open port on the current machine
+  package_url: https://www.npmjs.com/portfinder
+  version: 1.0.32
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16183/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: packages/artillery-plugin-memory-inspector/package.json
+- name: prisma
+  description: Prisma is an open-source database toolkit
+  package_url: https://www.npmjs.com/prisma
+  version: 3.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/graphql-api-server/package-lock.json
+  detection_source: examples/graphql-api-server/package.json
+- name: prom-client
+  description: Client for prometheus
+  package_url: https://www.npmjs.com/prom-client
+  version: 14.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18412/default_863e53b96f84b4092f7c0ba36b8cee4bf60d33fe.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery-plugin-publish-metrics/package.json
+- name: protobufjs
+  description: Protocol Buffers for JavaScript
+  package_url: https://www.npmjs.com/protobufjs
+  version: 6.11.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16784/default_55e3ea76a7929df1b71c5ea0c9b4130cc87323a4.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/core/package.json
+  vulnerabilities:
+  - name: protobufjs Prototype Pollution vulnerability
+    cve_id: CVE-2023-36665
+    cve_url: https://github.com/advisories/GHSA-h755-8qp9-cq85
+    detected_date: Jul 8
+    severity: critical
+    first_patched: 6.11.4
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 5.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery-plugin-publish-metrics/package.json
+  vulnerabilities:
+  - name: semver vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2022-25883
+    cve_url: https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 5.7.2
+- name: shelljs
+  description: Portable Unix shell commands for Node.js
+  package_url: https://www.npmjs.com/shelljs
+  version: 0.8.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15897/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery-plugin-expect/package.json
+- name: shx
+  description: Portable Shell Commands for Node
+  package_url: https://www.npmjs.com/shx
+  version: 0.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16496/default_55f3303d620c93eecbee69c43373d484f2be492f.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: packages/skytrace/package.json
+- name: socket.io-client
+  description: "[![Build Status]"
+  package_url: https://www.npmjs.com/socket.io-client
+  version: 4.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16164/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/core/package.json
+- name: sprintf-js
+  description: JavaScript sprintf implementation
+  package_url: https://www.npmjs.com/sprintf-js
+  version: 1.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16880/default_7fe969828600a90e84607bfa2a19979e53a0579d.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/skytrace/package.json
+- name: sqlite3
+  description: Asynchronous, non-blocking SQLite3 bindings
+  package_url: https://www.npmjs.com/sqlite3
+  version: 5.0.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16285/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/functional-testing-with-expect-plugin/package-lock.json
+  detection_source: examples/functional-testing-with-expect-plugin/package.json
+  vulnerabilities:
+  - name: sqlite vulnerable to code execution due to Object coercion
+    cve_id: CVE-2022-43441
+    cve_url: https://github.com/advisories/GHSA-jqv5-7xpx-qj74
+    detected_date: Mar 14
+    severity: high
+    first_patched: 5.1.5
+  - name: Denial-of-Service when binding invalid parameters in sqlite3
+    cve_id: CVE-2022-21227
+    cve_url: https://github.com/advisories/GHSA-9qrh-qjmc-5w2p
+    detected_date: Apr 29
+    severity: high
+    first_patched: 5.0.3
+- name: tap
+  description: A Test-Anything-Protocol library for JavaScript
+  package_url: https://www.npmjs.com/tap
+  version: 16.3.8
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16027/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/package-lock.json
+  detection_source: packages/artillery-engine-posthog/package.json
+- name: tape
+  description: Tap-producing test harness for node and browsers
+  package_url: https://www.npmjs.com/tape
+  version: 5.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15856/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/artillery-engine-example/package-lock.json
+  detection_source: examples/artillery-engine-example/package.json
+- name: temp
+  description: Temporary files and directories
+  package_url: https://www.npmjs.com/temp
+  version: 0.9.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16400/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: tmp
+  description: Temporary file and directory creator
+  package_url: https://www.npmjs.com/tmp
+  version: 0.0.33
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16251/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery/package.json
+- name: tough-cookie
+  description: RFC6265 Cookies and Cookie Jar for node.js
+  package_url: https://www.npmjs.com/tough-cookie
+  version: 4.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17146/default_9746cbb559e39df4afd8298f9a252dff8519e646.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/core/package.json
+  vulnerabilities:
+  - name: tough-cookie Prototype Pollution vulnerability
+    cve_id: CVE-2023-26136
+    cve_url: https://github.com/advisories/GHSA-72xf-g2v4-qvf3
+    detected_date: Jul 8
+    severity: moderate
+    first_patched: 4.1.3
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/socket-io/package-lock.json
+  detection_source: packages/skytrace/package.json
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 1.14.1
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/skytrace/package.json
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/browser-load-testing-playwright/package-lock.json
+  detection_source: packages/artillery-plugin-publish-metrics/package.json
+- name: walk-sync
+  description: Get an array of recursive directory contents
+  package_url: https://www.npmjs.com/walk-sync
+  version: 0.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17846/default_369b3bf3ef062123a581e4817f09cb0004de7ff6.png
+  detection_source_url: https://github.com/2lambda123/artilleryio/blob/main/examples/socket-io/package-lock.json
+  detection_source: packages/artillery/package.json
